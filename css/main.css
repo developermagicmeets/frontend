@@ -537,9 +537,9 @@ hr {
 	top: 0px;
 }
 
-.top-nav-collapse .navbar-brand img {
-	width: 70%;
-}
+/*.top-nav-collapse .navbar-brand img {*/
+/*	width: 70%;*/
+/*}*/
 
 .top-nav-collapse .navbar-nav .nav-link {
 	color: #585b60 !important;
@@ -565,9 +565,9 @@ hr {
 	cursor: pointer;
 }
 
-.navbar-brand img {
-	width: 70%;
-}
+/*.navbar-brand img {*/
+/*	width: 70%;*/
+/*}*/
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
 	color: #7a2db9 !important;
@@ -763,7 +763,7 @@ hr {
 	min-height: 650px;
 	position: relative;
 	overflow: hidden;
-	padding: 180px 0 80px;
+	padding: 120px 0 80px;
 }
 
 #hero-area .contents .head-title {
@@ -1435,7 +1435,7 @@ textarea {
 	max-height: 75px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 100px) {
 	.d-mobile-none {
 		display: none;
 	}

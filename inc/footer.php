@@ -1,4 +1,3 @@
-git ini
     <!-- Contact Section Start -->
     <!-- <section id="contact" class="section-padding bg-gray">    
       <div class="container">
@@ -59,47 +58,49 @@ git ini
               <div class="widget">
                 <h3 class="footer-logo"><img class='logo-img' src="img/logo.png" alt=""></h3>
                 <div class="textwidget">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis.</p>
+                  <p>Making humans social again!</p>
                 </div>
                 <div class="social-icon">
-                  <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
-                  <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
-                  <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
-                  <a class="linkedin" href="#"><i class="lni-linkedin-filled"></i></a>
+                  <a class="facebook" target="_blank" href="https://www.facebook.com/magicmeets"><i class="lni-facebook-filled"></i></a>
+                  <a class="twitter" target="_blank" href="https://twitter.com/MagicMeets_IND"><i class="lni-twitter-filled"></i></a>
+                  
+                  <a class="linkedin" target="_blank" href="https://www.linkedin.com/company/40935557"><i class="lni-linkedin-filled"></i></a>
                 </div>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Products</h3>
-              <ul class="footer-link">
-                <li><a href="#">Tracking</a></li>
-                <li><a href="#">Application</a></li>
-                <li><a href="#">Resource Planning</a></li>
-                <li><a href="#">Enterprise</a></li>           
-                <li><a href="#">Employee Management</a></li>           
-              </ul>
+              <h2 class="section-title mt-0">Follow us on</h2>
+              <a href="https://www.instagram.com/magicmeets/" target="_blank"><img class="hero-title h2-mobile mt-0 is-revealing" src="img/instagram.png" style="height: 80px; width: auto; margin:auto; margin-bottom: 25px;"></a>
+              <p class="section-paragraph">We love Instagram just like you! Connect with us.</p>
+            <!--  <h3 class="footer-titel">Follow us on Social Media!</h3>-->
+            <!--  <ul class="footer-link">-->
+            <!--    <li><a href="">Instagram</a></li>-->
+            <!--    <li><a href="">Facebook</a></li>-->
+            <!--    <li><a href="">LinkedIn</a></li>-->
+            <!--    <li><a href="https://twitter.com/MagicMeets_IND">Twitter</a></li>        -->
+            <!--    <li><a href="https://www.youtube.com/channel/UCzdvzLIvYoOIbrweGMHX3OA">YouTube</a></li>           -->
+            <!--  </ul>-->
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-              <h3 class="footer-titel">Resources</h3>
+              <h3 class="footer-titel">Free Resources</h3>
               <ul class="footer-link">
-                <li><a href="#">Payment Options</a></li>
-                <li><a href="#">Fee Schedule</a></li>
-                <li><a href="#">Getting Started</a></li>
-                <li><a href="#">Identity Verification</a></li>
-                <li><a href="#">Card Verification</a></li>
+                <li><a target="_blank"href="https://drive.google.com/drive/u/0/folders/11Pp9SWpVUUNKHCR0nGGoqiossLyli3Dm">The Complete Resource Bundle!</a></li>
+                <li><a href="https://conversationstartersworld.com/250-conversation-starters/"target="_blank">Conversation Starters for you!</a></li>
+                <li><a target="_blank" href="https://www.vox.com/science-and-health/2019/8/1/20750047/millennials-poll-loneliness">Why Milennials are loneliest!</a></li>
+                <li><a href="https://tinyurl.com/mm-happyusers"target="_blank">Survey on Meeting New People!</a></li>
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
               <h3 class="footer-titel">Contact</h3>
               <ul class="address">
                 <li>
-                  <a href="#"><i class="lni-map-marker"></i> 105 Madison Avenue - <br> Third Floor New York, NY 10016</a>
+                  <a href="#"><i class="lni-map-marker"></i> HJB Hall, IIT Kharagpur <br> West Bengal, India</a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-phone-handset"></i> P: +84 846 250 592</a>
+                  <a href="#"><i class="lni-phone-handset"></i> 8999000004 </a>
                 </li>
                 <li>
-                  <a href="#"><i class="lni-envelope"></i> E: contact@uideck.com</a>
+                  <a href="#"><i class="lni-envelope"></i> founders@magicmeets.com </a>
                 </li>
               </ul>
             </div>
@@ -111,7 +112,7 @@ git ini
           <div class="row">
             <div class="col-md-12">
               <div class="copyright-content">
-                <p>Copyright © 2020 Magic Meets</a> All Right Reserved</p>
+                <p>Copyright © 2019 Magic Meets</a> All Right Reserved</p>
               </div>
             </div>
           </div>
@@ -119,7 +120,11 @@ git ini
       </div>   
     </footer> 
     <!-- Footer Section End -->
-
+    <style>
+      .form-message{
+        min-height: 35px;
+      }
+    </style>
     <!-- Go to Top Link -->
     <a href="#" class="back-to-top">
     	<i class="lni-arrow-up"></i>
@@ -133,10 +138,11 @@ git ini
     
     <?php include 'register.php' ?>
     <?php include 'login.php' ?>
+  <script>
+    // 	if(logged_in){$('.no-auth, .auth').addClass('logged-in');}
+  </script>
 
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-min.js"></script>
+    <!-- Popper.js, Bootstrap JS -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -148,31 +154,11 @@ git ini
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/app.js"></script>
 
 <script>
-// $(document).ready(function() {
-// 	$('.popup-with-form').magnificPopup({
-// 		type: 'inline',
-// 		preloader: false,
-// 		focus: '#name',
-// 		modal: true
-
-// 		// When elemened is focused, some mobile browsers in some cases zoom in
-// 		// It looks not nice, so we disable it:
-// 		callbacks: {
-// 			beforeOpen: function() {
-// 				if($(window).width() < 700) {
-// 					this.st.focus = false;
-// 				} else {
-// 					this.st.focus = '#name';
-// 				}
-// 			}
-// 		}
-// 	});
-// });
-
-$(function () {
-	$('.popup-modal').magnificPopup({
+function initializeModals(){
+  $('.popup-modal').magnificPopup({
 		type: 'inline',
 		preloader: false,
 		// focus: '#username',
@@ -182,6 +168,10 @@ $(function () {
 		e.preventDefault();
 		$.magnificPopup.close();
 	});
+}
+
+$(function () {
+	initializeModals()
 });
 </script>
       

@@ -1,4 +1,6 @@
 <?php include('inc/header.php') ?>
+    <script>const page='profile'</script>
+
 <section id="profile" class="section-padding bg-gray">    
     <div class="container">
         <div class="section-header text-center">          
@@ -21,7 +23,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                 <label> Magic ID </label>
-                                    <input type="text" placeholder="Magic ID" disabled id=magicId class="form-control" >
+                                    <input type="text" placeholder="Magic ID" disabled id=mmid class="form-control" >
                                     <span class="help-block with-errors">Do remember your Magic Id!</span>
                                 </div> 
                             </div>
@@ -35,36 +37,46 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label> Contact No. </label>
-                                    <input type="text" placeholder="Contact Number" class="form-control" name="profilecontact" required data-error="Please enter your contact">
+                                    <input type="text" placeholder="Contact Number" class="form-control" id=profilecontact  name="profilecontact" required data-error="Please enter your contact">
                                     <div class="help-block with-errors"></div>
                                 </div> 
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Gender</label>
-                                    <input type="text" placeholder="Gender" id="profilegender" class="form-control" required data-error="Gender">
+                                    <select id="profilegender" class='form-control' required > 
+                                        <option disabled default selected> Select </option>
+                                        <option value=Male >Male</option>
+                                        <option value=Female >Female </option>
+                                        <option value='other'>Other</option>
+                                    </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Age</label>
-                                    <input type="text" placeholder="Password" id="profileage" class="form-control" required data-error="Age">
+                                    <input type="text" placeholder="Age" id="profileage" class="form-control" required data-error="Enter Age">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Work Status</label>
-                                    <input type="text" placeholder="Password" id="profileworkstatus" class="form-control" required data-error="Work Status">
+                                    <select id="profileworkstatus" class='form-control' required > 
+                                        <option disabled default selected> Select </option>
+                                        <option value="College Student" >College Student</option>
+                                        <option value="Young Professional" >Young Professional </option>
+                                        <option value='High School Student'>High School Student</option>
+                                    </select>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="submit-button text-left">
-                                    <button class="btn btn-common" id="form-submit" type="submit">Update</button>
-                                    <div id="regmsgSubmit" class="h3 text-center hidden"></div> 
-                                    <div class="clearfix"></div> 
+                                    <div id="profileFormMessage"  class="h3 form-message text-center"></div> 
+                                    <div class="clearfix"></div>   
+                                    <button class="btn btn-common" id="profile-submit" type="submit">Update</button>
                                 </div>
                             </div>
                         </div>            

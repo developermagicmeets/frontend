@@ -17,12 +17,6 @@
                     <div class="help-block with-errors"></div>
                 </div>                                 
             </div>
-            <!-- <div class="col-md-6">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="regcontact" name="contact" placeholder="Contact" required data-error="Please enter your contact number">
-                    <div class="help-block with-errors"></div>
-                </div>                                 
-            </div> -->
             <div class="col-md-6">
                 <div class="form-group">
                     <input type="text" placeholder="Email" id="regemail" class="form-control" name="email" required data-error="Please enter your email">
@@ -37,9 +31,10 @@
             </div>
             <div class="col-md-12 ">
                 <div class="submit-button text-center">
+                    <div id="regmsgSubmit" class="h3 text-center form-message"></div> 
+                    <div class="clearfix"></div>                     
                     <button class="btn btn-common" id="regSubmit" type="submit">Register</button>
-                    <div id="regmsgSubmit" class="h3 text-center hidden"></div> 
-                    <div class="clearfix"></div> 
+                    
                 </div>
             </div>
         </div>            

@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <input type="text" placeholder="Email" id="loginemail" class="form-control" name="email" required data-error="Please enter your Email">
+                    <input type="email" placeholder="Email" id="loginemail" class="form-control" name="email" required data-error="Please enter your Email">
                     <div class="help-block with-errors"></div>
                 </div> 
             </div>
@@ -24,9 +24,10 @@
             </div>
             <div class="col-md-12 ">
                 <div class="submit-button text-center">
+                    <div id="loginmsgSubmit" class="h3 form-message text-center"></div> 
+                    <div class="clearfix"></div>                     
                     <button class="btn btn-common" id="login-submit" type="submit">Login</button>
-                    <div id="regmsgSubmit" class="h3 text-center hidden"></div> 
-                    <div class="clearfix"></div> 
+                    
                 </div>
             </div>
         </div>            
