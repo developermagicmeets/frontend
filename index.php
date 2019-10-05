@@ -1,4 +1,29 @@
 <?php include('inc/header.php') ?>
+
+<section id="hero-area" class="hero-area-bg">
+        <div class="container">      
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <div class="contents">
+                <h2 class="head-title">App, Business & SaaS<br>Landing Page Template</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat!</p>
+                <div class="header-button">
+                  <a href="#registerModal" class="btn btn-common no-auth popup-modal">Register</i></a>
+                  <a href="#loginModal" class="btn btn-border no-auth popup-modal">Login</i></a><br>
+                  <a href="profile.php" class="btn btn-border auth">Profile</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+              <div class="intro-img">
+                <img class="img-fluid" src="img/intro-mobile.png" alt="">
+              </div>            
+            </div>
+          </div> 
+        </div> 
+      </section>
+
+    
     <!-- Services Section Start -->
     <section id="services" class="section-padding">
       <div class="container">
